@@ -63,5 +63,4 @@ This repository contains a comprehensive system for brain tumor segmentation and
 - MRI data folders (`TCGA_*`) are large and may be excluded from pushes if needed.
 - Ensure you have sufficient disk space and memory for training and inference.
 
-## License
-This project is licensed under the MIT License.
+
