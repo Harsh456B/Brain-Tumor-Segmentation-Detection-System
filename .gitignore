@@ -1,0 +1,47 @@
+# Virtual environments
+brain_env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models (large files)
+Brain_MRI/*.h5
+Brain_MRI/*.hdf5
+Brain_MRI/savedmodel/
+Brain_MRI/**/weights*
+*.h5
+*.hdf5
+weights*
+
+# Environment and IDE
+.env
+*.env
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.sqlite
+
+# Do not accidentally add compiled binaries from site-packages
+**/site-packages/
+
+# Large binaries
+*.dll
+*.pyd
+*.so
+
+# Git LFS pointer files
+*.gitattributes
